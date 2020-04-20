@@ -1,0 +1,10 @@
+声明：
+var map01 map[string]string //只是声明变量，没有开启内存，不能添加键和值
+var map02 = make(map[string]string)
+var map03 = map[string]string{"a":"b","c":"d"} //声明并初始化键，值
+
+判断是否有该键存在
+value,ok := map03["a"] //有的话返回键对应的值，和true，没有返回初始化的值和false
+
+删除map的键和值
+delete(map3,"c") map3==map,"c" == 键

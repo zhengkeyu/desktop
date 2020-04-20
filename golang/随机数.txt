@@ -1,0 +1,3 @@
+rand.seed(time.Now.UnixNano()) //设置种子为当前时间的纳秒
+rand.Float64()float64  //[0,10)的随机浮点数
+rand.Intn(10)int      //[0,10)根据输入的值来生成随机整数

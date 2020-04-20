@@ -1,0 +1,18 @@
+package card
+
+const (
+	SAN_TONG_HUA = 10 + iota
+	SAN_SHUN_ZI
+	LIU_DUI_BAN
+	SI_TAO_SAN_TIAO
+	SAN_FEN_TIAN_XIA
+	SAN_TONG_HUA_SHUN
+	YI_TIAO_LONG
+	QING_LONG
+)
+const (
+	HEI  = 0x32
+	HONG = 0x22
+	MEI  = 0x12
+	FANG = 0x02
+)

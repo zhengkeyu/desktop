@@ -1,0 +1,17 @@
+1：可变参会被放在一个切片里面
+2：可变参必须要在参数列表的最后
+3：一个函数只能有一个可变参
+func sum(b string,a ...int)int  {
+	if b == "+" {
+		res := 0
+		for _,r := range a {
+			res +=r
+		}
+		return res
+	}else {
+		fmt.Println("错误")
+		return 0
+	}
+	return 0
+}
+//可变参=>a ...int

@@ -1,0 +1,61 @@
+创建结构体：
+type Person struct{
+     name string
+     age int
+     sex string
+}
+
+实例化结构体的几种方法：
+1:
+var str01 = Person{"zhangsan",14,"nan"}
+2:
+var str02 Person
+str02.name = "lisi"
+str02.age = 20
+str02.sex = "nan"
+3:
+var str03 = Person{name:"wangwu",age:21,sex:"nv"}
+4:使用new创建的都为指针类型
+var str04 = new(Person)
+str02.name = "zhaoliu"
+str02.age = 24
+str02.sex = "nan"
+5:匿名结构体
+变量 := struct{
+     name string
+     age int 
+}{"zhangsan",15}
+6:结构体的匿名字段,默认使用类型作为字段
+type person struct{
+     string
+     int
+}
+7:结构体的嵌套
+type Person struct {
+	name string
+	age int
+	book []Book
+}
+type Book struct {
+	bnane string
+	pri float64
+}
+
+func main() {
+实例化方式1：
+var per = Person{"zhangsan",18,[]Book{{"三国演义",30},{"水浒传",50}}}
+实例化方式2：
+var book01 = Book{bnane:"三国演义",pri:54.2}
+var book02 = Book{bnane:"红楼梦",pri:45.23}
+var men = Person{name:"zhangsan",age:35,book:[]Book{book01,book02}}
+}
+8：结构体的继承
+type Person struct {
+	name string
+	age int
+	 Book
+}
+type Book struct {
+	bnane string
+	pri float64
+}

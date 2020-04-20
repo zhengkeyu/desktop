@@ -1,0 +1,18 @@
+1：匿名函数=>不能调用，主函数走到时自动执行，传参在后面括号里
+func(a,int)int{
+return a
+}(10)
+
+变量接收匿名函数：
+res := func(a int)int{
+return a+1
+}
+2:高阶函数=>使用函数作为参数的函数
+func test(a,b int,fun func(i,r int)int)int{
+return fun(a,b)
+}
+
+3：回调函数=>作为其他函数参数的函数，执行时需要一些条件，比如响应的数据
+func sum(a,b int)int{
+return a+b
+}

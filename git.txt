@@ -1,0 +1,80 @@
+git 远程库取别名：
+git remote add [别名] [远程库地址]
+git remote -v //查看远程库别名
+
+查看分支:
+git branch //查看本地分支
+git branch -r //查看远程分支
+git branch -a //查看所有分支
+git branch [分支名] //新建分支
+git branch -D [分支名] //删除未合并的分支
+git branch -delete [分支名] //删除已合并的分支
+
+比较
+git diff [分支名]
+
+合并
+git rebase [分支名] //把其他分支合并到自己当前所在的分支
+
+git checkout --track [(远程仓库)/(远程分支)] //在本地创建一个和远程分支一样的分支，并切换到改分支
+git checkout --track -b [新本地分支名] [(远程仓库)/(远程分支)] //功能和上面一样，可以指定名字
+git checkout [分支名]  //切换分支
+git checkout -b [分支名] //从主分支创建一个分支并切换到改分支
+
+添加
+git add */--alll   //把所有更改添加到暂存区
+git add --patch [文件夹名字] //把目录下的所有文件更改(更改是相对本地库的，需本地库有这个文件)逐个操作是否添加
+
+移除
+git reset  //移除所有暂存
+git reset [文件名字] //指定移除那个文件更改
+git reset --patch  //依次指定是否移除暂存和git reset --patch类似
+
+git配置
+git config --global core.excludesfile [文件路径]  //设置屏蔽哪些文件，例:文件路径=~/.gitignore gitignore里写上需要屏蔽的文件名,可写*.swp
+
+查看日志
+ //查看当前分支的提交日志
+git log
+git log --oneline //会按一行来显示日志
+git show [哈希] //查看对应提交的详细信息
+
+推送
+git push [远程库] [本地分支]:[远程分支]
+git push --delete [远程库] [远程分支] //删除
+git push -u [远程库] [远程分支] //推送到远程库，可用于新建远程库后的第一次推送
+
+保存 //通常用于拉取之前
+git stash list //查看保存信息
+git stash //保存工作区和暂存区的状态
+git stash save [保存信息]
+git stash pop //恢复保存的最新一条记录
+git stash pop stash@{??} //恢复到指定的记录
+git stash drop stash@{??}  //删除记录
+
+拉
+git fech [远程库] [远程分支]
+git log [远程库]/[远程分支]  //看远程分支log,要先fetch才保证是最新的
+
+合并
+git merge [分支] //把分支的更改合并过来，包括所有的commit
+git merge [分支] --squash //把分支的更改合并过来,自己需手动commit一次，只会产生一次commit
+//rebase 的 merge  //只会产生一条commit但会保留原提交人信息
+git checkout [目标分支]
+git checkout [目标分支]
+git rebase -i [原分支]
+git checkout [原分支]
+git merge [目标分支]
+
+修改提交
+git rebase -i [提交哈希/HEAD~?] //以提交哈希或者HEAD为基准圈定的提交
+-s //合并
+-e //编辑提交信息，-e后需要执行git commit --amend 修改提交信息，再执行git rebase --continue
+
+追踪日志
+git blame [文件名] //追踪更改日志
+
+git cherry-pick [版本哈希] //切换操作历史，用之前先git reflog
+
+//???
+git config --global rebase.autoStash true
