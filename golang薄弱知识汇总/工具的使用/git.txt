@@ -78,3 +78,6 @@ git cherry-pick [版本哈希] //切换操作历史，用之前先git reflog
 
 //???
 git config --global rebase.autoStash true
+
+//git bash里显示中文
+git config --global core.quotepath false
