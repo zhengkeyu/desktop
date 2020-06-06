@@ -1,17 +1,19 @@
 package main
 
 import (
+	"time"
+
 	"github.com/lonng/nano"
 	"github.com/lonng/nano/component"
 	"github.com/lonng/nano/serialize/json"
 	"github.com/lonng/nano/session"
-	"time"
 )
 
 type HallManager struct {
 	component.Base
 	Group *nano.Group
 }
+
 //可以重新实现
 //Init()
 //AfterInit()
@@ -22,6 +24,7 @@ func (m *HallManager) AfterInit() {}
 var Hall = &HallManager{Group: nano.NewGroup("hall")}
 
 func main() {
+
 	comps := &component.Components{}
 	comps.Register(Hall, component.WithName("HallManager"))
 	nano.Listen(":8700",
@@ -44,4 +47,3 @@ type LoginToGameServerRequest struct {
 func (m *HallManager) Login(s *session.Session, req *LoginToGameServerRequest) error {
 	return nil
 }
-

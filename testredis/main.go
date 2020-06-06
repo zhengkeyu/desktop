@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+
 	"github.com/go-redis/redis"
 )
 
@@ -21,4 +22,6 @@ func init() {
 func main() {
 	s := redisDb.Get("zheng")
 	fmt.Println(s.Result())
+	a := redisDb.Keys("*")
+	fmt.Println(a.Result())
 }
