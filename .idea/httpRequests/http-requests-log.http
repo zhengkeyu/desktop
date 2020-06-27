@@ -1,0 +1,110 @@
+POST http://localhost:8080/index
+Accept: */*
+Cache-Control: no-cache
+
+{ "Name":"zheng", "Age":28 }
+
+###
+
+POST http://localhost:8080/index
+Accept: */*
+Cache-Control: no-cache
+
+{ "Name":"zheng", "Age":28 }
+
+###
+
+POST http://localhost:8080/index
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8080/index
+Accept: */*
+Cache-Control: no-cache
+
+{ "Name":"zheng", "Age":28 }
+
+###
+
+POST http://localhost:8080/index
+Accept: */*
+Cache-Control: no-cache
+
+{ "Name":"zheng", "Age":28 }
+
+###
+
+POST http://localhost:8080/index
+Accept: */*
+Cache-Control: no-cache
+
+{ "Name":"zheng", "Age":28 }
+
+###
+
+POST http://localhost:8080/index
+Accept: */*
+Cache-Control: no-cache
+
+{ "Name":"zheng", "Age":28 }
+
+###
+
+POST http://localhost:8080/index
+Accept: */*
+Cache-Control: no-cache
+
+{ "Name":"zheng", "Age":"28" }
+
+###
+
+POST http://localhost:8080/index
+Accept: */*
+Cache-Control: no-cache
+
+{ "Name":"zheng", "Age":"28" }
+
+###
+
+POST http://localhost:8080/index
+Accept: */*
+Cache-Control: no-cache
+
+{ "Name":"zheng", "Age":"28" }
+
+###
+
+POST http://localhost:8080/index
+Accept: */*
+Cache-Control: no-cache
+
+{ "Name":"zheng", "Age":"28" }
+
+###
+
+POST http://localhost:8080/index
+Accept: */*
+Cache-Control: no-cache
+
+{ "Name":"zheng", "Age":"28" }
+
+###
+
+POST http://localhost:8080/index?Name=guo&Age=50
+Accept: */*
+Cache-Control: no-cache
+
+{ "Name":"zheng", "Age":"28" }
+
+###
+
+POST http://localhost:8080/index?Name=zheng&Age=28
+Accept: */*
+Cache-Control: no-cache
+
+{ "Name":"zheng", "Age":"28" }
+
+###
+

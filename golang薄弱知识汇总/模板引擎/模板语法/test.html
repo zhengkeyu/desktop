@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>姓名:{{.Name}}}</p>
+
+{{with .PersonInfo}} {{/*with end语法指定了作用域内的变量省去.PersonInfo*/}}
+<p>地址:{{.Address}}</p>
+<p>电话:{{.PhoneNumber}}</p>
+{{/*变量的声明，以及if else的使用*/}}
+{{$age := ""}}
+{{if gt .Age 40 }}
+    {{$age = "老年人"}}
+{{else if gt .Age 30}}
+    {{$age = "中年人"}}
+{{else}}
+    {{$age = "青年人"}}
+{{end}}
+<p>年龄:{{$age}}</p>
+{{end}}
+<hr>
+<p>喜欢的书:{{myf .Books}}本</p>  {{/*函数f,变量.Books*/}}
+{{range $key,$val := .Books}}
+    <p>{{$val.Name}}===============>{{$val.Price}}元</p>
+{{end}}
+{{/*index .Books 4 可以取到下标为4的值*/}}
+{{$f := index .Books 4}}
+<p>最喜欢的一本:{{$f.Name}}</p>
+<hr>
+<p>兴趣爱好:</p>
+{{range $key,$val := .Joins}}
+    <p>{{$key}}===============>{{$val}}</p>
+{{end}}
+{{.XssSafe | safe}} {{/*不会被转义，因为使用了safe函数，|为管道符，把前面的传给后面的*/}}
+</body>
+{{.Xss}} {{/*会被转义*/}}
+</html>
