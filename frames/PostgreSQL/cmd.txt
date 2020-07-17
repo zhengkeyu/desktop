@@ -1,0 +1,47 @@
+//连接数据库
+\c [数据库名]
+
+//查看当前数据库所有的表(前提是连接了一个数据库)
+\d
+
+//退出sql shell
+\q
+
+//建表自增和主键
+create table tt (id serial primary key,name varchar(100));
+
+//删除表
+drop table [表名];
+
+//with
+with mys as (select id,uid,pname from myproject)
+select * from mys //相当于select * from myproject
+
+//序列的设置
+select setval('m2_id_seq', (SELECT MAX(id) FROM m2));
+//'m2_id_seq':表名_列名_seq
+//m2:表名
+
+//union/union all
+连接多个select的结果，必须相同数量的列，并且拥有相似的数据类型
+select uid,pname from myproject where uid < (select * from myproject where id >4);
+
+//子查询,括号内的子查询只能返回一行
+select * from myproject where id > (select id from myproject where uid=8)
+
+//设置2个字段不能同时有重复，unique_prediction_namiid_companyid为定义的约束名
+//alter table prediction add constraint unique_prediction_namiid_companyid unique(namiid,companyid)
+
+//设置列约束不能为空
+//alter table prediction alter column companyid set not null;
+
+//onconflict //表存在则更新，否则插入
+INSERT INTO 表名 (
+               列名,
+               ...
+                )
+     VALUES (
+               列值,
+               ...
+                )
+ON CONFLICT (约束的键，...) DO UPDATE SET 列名 = EXCLUDED.列名, ...;

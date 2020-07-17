@@ -21,8 +21,8 @@ func main() {
 	cancel()
 	time.Sleep(time.Second * 10)
 	fmt.Println("main quit")
-	context.WithDeadline()
-	context.WithTimeout()
+	//context.WithDeadline()
+	//context.WithTimeout()
 }
 //其他方法，类似context.WithCancel()，也是用于控制协程退出
 

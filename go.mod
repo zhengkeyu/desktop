@@ -9,13 +9,13 @@ require (
 	github.com/dchest/safefile v0.0.0-20151022103144-855e8d98f185 // indirect
 	github.com/gin-gonic/gin v1.6.2
 	github.com/go-pg/pg v8.0.7+incompatible // indirect
+	github.com/go-pg/pg/v9 v9.0.0-beta.15
 	github.com/go-playground/validator/v10 v10.2.0
-	github.com/go-redis/redis v6.15.7+incompatible
+	github.com/go-redis/redis/v7 v7.0.0-beta.4
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/golang/protobuf v1.3.5 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
-	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/kardianos/govendor v1.0.9 // indirect
 	github.com/lonng/nano v0.4.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
@@ -31,5 +31,4 @@ require (
 	golang.org/x/sys v0.0.0-20200406155108-e3b113bbe6a4 // indirect
 	golang.org/x/text v0.3.2
 	gopkg.in/olivere/elastic.v5 v5.0.85
-	mellium.im/sasl v0.2.1 // indirect
 )
