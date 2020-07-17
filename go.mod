@@ -7,7 +7,7 @@ require (
 	github.com/astaxie/beego v1.12.1
 	github.com/chromedp/chromedp v0.5.3 // indirect
 	github.com/dchest/safefile v0.0.0-20151022103144-855e8d98f185 // indirect
-	github.com/gin-gonic/gin v1.6.2
+	github.com/gin-gonic/gin v1.4.0
 	github.com/go-pg/pg v8.0.7+incompatible // indirect
 	github.com/go-pg/pg/v9 v9.0.0-beta.15
 	github.com/go-playground/validator/v10 v10.2.0
@@ -18,8 +18,6 @@ require (
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/kardianos/govendor v1.0.9 // indirect
 	github.com/lonng/nano v0.4.0 // indirect
-	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
-	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/nsqio/go-nsq v1.0.8
 	github.com/pkg/errors v0.9.1
 	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect
