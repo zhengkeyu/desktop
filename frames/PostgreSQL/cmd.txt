@@ -22,6 +22,16 @@ select setval('m2_id_seq', (SELECT MAX(id) FROM m2));
 //'m2_id_seq':表名_列名_seq
 //m2:表名
 
+//查看数据库所有序列
+select * from pg_class where relkind='S'
+
+//查询单个序列
+select *  from xinwencount_id_seq;
+
+//序列注意
+//使用navicat添加数据，表的序列不会自增，下次命令插入会报错
+//序列的last_value必须>=该序列对应的表的列最大值
+
 //union/union all
 连接多个select的结果，必须相同数量的列，并且拥有相似的数据类型
 select uid,pname from myproject where uid < (select * from myproject where id >4);
@@ -33,7 +43,7 @@ select * from myproject where id > (select id from myproject where uid=8)
 //alter table prediction add constraint unique_prediction_namiid_companyid unique(namiid,companyid)
 
 //设置列约束不能为空
-//alter table prediction alter column companyid set not null;
+//alter table 表名 alter column 列名 set not null;
 
 //onconflict //表存在则更新，否则插入
 INSERT INTO 表名 (
@@ -45,3 +55,11 @@ INSERT INTO 表名 (
                ...
                 )
 ON CONFLICT (约束的键，...) DO UPDATE SET 列名 = EXCLUDED.列名, ...;
+
+//组合索引
+//create index 索引名 on 表名 (id,name)
+能优化到以下查询
+where id = ? and name = ?
+where id = ?
+不能优化到的查询,因为建一个联合索引(col1,col2,col3)，实际相当于建了(col1),(col1,col2),(col1,col2,col3)三个索引
+where name = ?

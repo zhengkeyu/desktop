@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/go-pg/pg/v9"
+	"time"
 )
 
 type mytable struct {
@@ -25,14 +26,6 @@ type project struct {
 //	PName     string   `sql:"pname,type:varchar(100)"`
 //	tableName struct{} `pg:"mys"`
 //}
-
-type User struct {
-	Id        int      `pg:"id"`
-	Uid       int      `pg:"uid"`
-	PassWord  string   `pg:"password"`
-	Name      string   `pg:"name"`
-	tableName struct{} `pg:"user"`
-}
 
 func main() {
 	db := pg.Connect(&pg.Options{
@@ -67,7 +60,7 @@ func main() {
 	//	panic(err)
 	//}
 
-	////插入数据
+	////插入数据 //可放数组，批量插入
 	//err = db.Insert(&mytable{
 	//	Name:  "guo",
 	//	Age:   23,
@@ -143,7 +136,7 @@ func main() {
 	////offset()和limit()
 	////offset():偏移数，limit()：只取几条
 	//d := make([]mytable,0)
-	//err = db.Model(&mytable{}).Where(`id>0`).Offset(2).Select(&d)
+	//err = db.Model(&mytable{}).Where(`id>0`).Offset(2).Select(&d) //该查询允许结构体和表字段不一致
 	//if err != nil {
 	//	panic(err)
 	//}
@@ -151,7 +144,7 @@ func main() {
 
 	////匹配字符
 	//r := make([]mytable, 0)
-	//_, err = db.Query(&r, `select * from mytables where learn[1] like '__go%'`)
+	//_, err = db.Query(&r, `select * from mytables where learn[1] like '__go%'`) //该查询不允许结构体和表字段不一致
 	//if err != nil {
 	//	panic(err)
 	//}
@@ -184,10 +177,129 @@ func main() {
 	//	PassWord: "newpassword",
 	//	Name: "newgogo",
 	//}
-	//_, err = db.Model(&d).OnConflict("(id) DO UPDATE").
+	//_, err = db.Model(&d).OnConflict("(id) DO UPDATE"). //do nothing为不做操作
 	//	Set("uid=EXCLUDED.uid,password=EXCLUDED.password,name=EXCLUDED.name").Insert()
 	//if err != nil {
 	//	panic(err)
 	//}
 
+	//d := 0
+	//
+	//_, err := db.Query(&d, `select max(startt) from prediction`)
+	//if err != nil {
+	//	panic(err)
+	//}
+	//
+	//fmt.Println(d)
+
+	//_, err := db.Model(&o).OnConflict("(userid) do update").
+	//	Set("totaltime = ?totaltime+totaltime").Insert()
+	//if err != nil{
+	//	panic(err)
+	//}
+	t := T1{
+		Id:   2147483647,
+		Name: "",
+	}
+	_,err := db.Model(&t).Set("name = ?",t.Name).WherePK().Update()
+    if err != nil{
+    	panic(err)
+	}
+}
+
+type T1 struct {
+	Id   int
+	Name string
+	tableName struct{} `pg:"t1"`
+}
+
+type User struct {
+	Id         string
+	Username   string
+	Pwd        string
+	Viplevel   int
+	Gold       int64
+	Gender     int16
+	Iconurl    string
+	Nickname   string
+	Mobile     string
+	Wxid       string
+	Tokenuuid  string
+	Realname   string
+	Idnumber   string
+	Email      string
+	Exp        int
+	Packet     string
+	Vip        int
+	Vipst      int64
+	Yqcode     string
+	Usedyqcode string
+	Usource    int
+	Uchannel   int
+	Mark       int
+	Status     int
+	Lastlogin  time.Time
+	Createt    time.Time `pg:"create_at"`
+	IsStar     bool      `pg:"is_star"`
+	IsShowing  bool      `pg:"is_showing"`
+	tableName  struct{}  `pg:"k_usrs"`
+}
+
+type InviteTask struct {
+	Id        int
+	Name      string
+	Head      string
+	Gifts     []string
+	Uid       string
+	tableName struct{} `pg:"invitetask"`
+}
+
+type OnLineTime struct {
+	Id        int
+	UserId    string   `pg:"userid"`
+	TotalTime int      `pg:"totaltime"`
+	tableName struct{} `pg:"onlinetime"`
+}
+type Test struct {
+	Id        int
+	UserName  string `pg:"username"`
+	Bpwd      string
+	Pwd       string
+	tableName struct{} `pg:"test"`
+}
+type Prediction struct {
+	Id        int      `pg:"id"`
+	NaMiId    int      `pg:"namiid"`
+	Name      string   `pg:"name"`
+	Startt    int64    `pg:"startt"`
+	Companyid int      `pg:"companyid"`
+	RqResult  int      `pg:"rqresult"`
+	SfpResult int      `pg:"sfpresult"`
+	DxResult  int      `pg:"dxresult"`
+	tableName struct{} `pg:"prediction"`
+}
+
+type LiaoTianShiCount struct {
+	Id        int
+	NamiId    int64 `pg:"namiid"`
+	Startt    int64
+	Name      []string
+	UserId    string   `pg:"userid"`
+	tableName struct{} `pg:"liaotianshicount"`
+}
+
+func RunRemote() {
+	db := pg.Connect(&pg.Options{
+		Addr:     "123.207.85.242:5433",
+		User:     "postgres",
+		Password: "2932615qian",
+		Database: "postgres",
+	})
+	defer db.Close()
+}
+
+type NaMi struct {
+	Namiid     int   `pg:"namiid"`
+	Startt     int64 `pg:"startt"`
+	Startballt int64 `pg:"startballt"`
 }
