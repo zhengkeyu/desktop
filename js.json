@@ -1,0 +1,1694 @@
+{
+  "ok": [
+    {
+      "Mac": "A4:71:74:E9:0E:65",
+      "FirstLogint": 1600882745,
+      "Logint": 1600882745,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "EVA-TL00",
+      "Total": 1
+    },
+    {
+      "Mac": "6C:D9:4C:2A:6E:1B",
+      "FirstLogint": 1600927972,
+      "Logint": 1600927972,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "vivo",
+      "PhoneType": "V1901A",
+      "Total": 1
+    },
+    {
+      "Mac": "60:AB:67:F0:E6:43",
+      "FirstLogint": 1596800376,
+      "Logint": 1600938189,
+      "From": "xiaomi",
+      "Pac": "",
+      "Brand": "Xiaomi",
+      "PhoneType": "MI 9 Transparent Edition",
+      "Total": 26
+    },
+    {
+      "Mac": "18:70:3B:ED:92:F0",
+      "FirstLogint": 1600957808,
+      "Logint": 1600957808,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "SEA-AL10",
+      "Total": 1
+    },
+    {
+      "Mac": "62:97:35:BC:F6:F4",
+      "FirstLogint": 1600884942,
+      "Logint": 1600884942,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "BMH-AN10",
+      "Total": 1
+    },
+    {
+      "Mac": "28:33:34:31:BB:8B",
+      "FirstLogint": 1600928317,
+      "Logint": 1600928317,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "MRD-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "D4:62:EA:FA:E6:96",
+      "FirstLogint": 1600929184,
+      "Logint": 1600929184,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "POT-AL10",
+      "Total": 1
+    },
+    {
+      "Mac": "B8:94:36:76:D1:55",
+      "FirstLogint": 1600958298,
+      "Logint": 1600958298,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "DRA-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "FE:22:F5:B4:43:EB",
+      "FirstLogint": 1600885385,
+      "Logint": 1600885385,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "JER-AN10",
+      "Total": 1
+    },
+    {
+      "Mac": "C0:9A:71:8F:FE:8F",
+      "FirstLogint": 1600495934,
+      "Logint": 1600908129,
+      "From": "xiaomi",
+      "Pac": "360sem_2",
+      "Brand": "Meitu",
+      "PhoneType": "MP1718",
+      "Total": 26
+    },
+    {
+      "Mac": "66:9E:82:CD:A1:CB",
+      "FirstLogint": 1600928409,
+      "Logint": 1600928409,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "JNY-AL10",
+      "Total": 1
+    },
+    {
+      "Mac": "62:26:A2:3B:BF:68",
+      "FirstLogint": 1600682434,
+      "Logint": 1600932976,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "JER-AN10",
+      "Total": 4
+    },
+    {
+      "Mac": "B4:CB:57:FB:17:8B",
+      "FirstLogint": 1600959094,
+      "Logint": 1600959551,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "OPPO",
+      "PhoneType": "PADM00",
+      "Total": 2
+    },
+    {
+      "Mac": "FC:AB:90:51:98:44",
+      "FirstLogint": 1597278875,
+      "Logint": 1600886286,
+      "From": "xiaomi",
+      "Pac": "360sem_5",
+      "Brand": "HUAWEI",
+      "PhoneType": "HRY-AL00T",
+      "Total": 3
+    },
+    {
+      "Mac": "A4:45:19:D7:0A:A1",
+      "FirstLogint": 1600928547,
+      "Logint": 1600928547,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "Xiaomi",
+      "PhoneType": "Redmi K30",
+      "Total": 1
+    },
+    {
+      "Mac": "0E:6F:4E:4A:DD:1E",
+      "FirstLogint": 1600959912,
+      "Logint": 1600959912,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "JER-AN10",
+      "Total": 1
+    },
+    {
+      "Mac": "0C:CB:85:74:FB:B3",
+      "FirstLogint": 1600959944,
+      "Logint": 1600959944,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "motorola",
+      "PhoneType": "XT1924-9",
+      "Total": 1
+    },
+    {
+      "Mac": "1C:B7:96:BE:72:34",
+      "FirstLogint": 1600443661,
+      "Logint": 1600888421,
+      "From": "xiaomi",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "STK-AL00",
+      "Total": 2
+    },
+    {
+      "Mac": "00:9C:5E:08:4C:94",
+      "FirstLogint": 1600930180,
+      "Logint": 1600930180,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "koobee",
+      "PhoneType": "koobee S15",
+      "Total": 1
+    },
+    {
+      "Mac": "38:47:BC:1D:24:3B",
+      "FirstLogint": 1600930235,
+      "Logint": 1600930531,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "MRD-AL00",
+      "Total": 5
+    },
+    {
+      "Mac": "44:66:FC:F1:02:2F",
+      "FirstLogint": 1600960098,
+      "Logint": 1600960098,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "OPPO",
+      "PhoneType": "PACM00",
+      "Total": 1
+    },
+    {
+      "Mac": "88:BF:E4:8B:A3:EA",
+      "FirstLogint": 1597797665,
+      "Logint": 1600960257,
+      "From": "promotion_channel",
+      "Pac": "360sem_3",
+      "Brand": "HUAWEI",
+      "PhoneType": "DUB-TL00",
+      "Total": 2
+    },
+    {
+      "Mac": "9E:2B:F3:22:D4:FB",
+      "FirstLogint": 1600848098,
+      "Logint": 1600881158,
+      "From": "promotion_channel",
+      "Pac": "",
+      "Brand": "samsung",
+      "PhoneType": "SM-G9810",
+      "Total": 2
+    },
+    {
+      "Mac": "E4:FD:A1:A8:C1:01",
+      "FirstLogint": 1600891867,
+      "Logint": 1600939256,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "STK-AL00",
+      "Total": 2
+    },
+    {
+      "Mac": "34:46:EC:74:D4:59",
+      "FirstLogint": 1600846166,
+      "Logint": 1600951461,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "STK-AL00",
+      "Total": 5
+    },
+    {
+      "Mac": "96:51:0E:D7:52:94",
+      "FirstLogint": 1600960749,
+      "Logint": 1600960749,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "vivo",
+      "PhoneType": "V1965A",
+      "Total": 1
+    },
+    {
+      "Mac": "92:C4:F5:19:C0:33",
+      "FirstLogint": 1600895811,
+      "Logint": 1600895811,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "WLZ-AN00",
+      "Total": 1
+    },
+    {
+      "Mac": "D4:1A:3F:27:9D:EB",
+      "FirstLogint": 1600931244,
+      "Logint": 1600931244,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "OPPO",
+      "PhoneType": "OPPO A83t",
+      "Total": 1
+    },
+    {
+      "Mac": "04:50:DA:06:0A:49",
+      "FirstLogint": 1600931890,
+      "Logint": 1600939408,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "360",
+      "PhoneType": "1713-A01",
+      "Total": 5
+    },
+    {
+      "Mac": "B4:0F:B3:AF:C9:11",
+      "FirstLogint": 1597198956,
+      "Logint": 1600941355,
+      "From": "xiaomi",
+      "Pac": "360sem_1",
+      "Brand": "vivo",
+      "PhoneType": "V1816A",
+      "Total": 27
+    },
+    {
+      "Mac": "2C:57:31:98:8C:AA",
+      "FirstLogint": 1600961959,
+      "Logint": 1600961959,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "Meizu",
+      "PhoneType": "M6",
+      "Total": 1
+    },
+    {
+      "Mac": "DC:31:D1:5F:F0:77",
+      "FirstLogint": 1600962401,
+      "Logint": 1600962401,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "vivo",
+      "PhoneType": "V1813A",
+      "Total": 1
+    },
+    {
+      "Mac": "B8:94:36:EB:C3:92",
+      "FirstLogint": 1600896424,
+      "Logint": 1600896587,
+      "From": "promotion_channel",
+      "Pac": "360sem_9",
+      "Brand": "HUAWEI",
+      "PhoneType": "LND-AL30",
+      "Total": 3
+    },
+    {
+      "Mac": "24:FB:65:22:1D:20",
+      "FirstLogint": 1600931450,
+      "Logint": 1600931450,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "DUB-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "96:9B:CA:1F:8F:05",
+      "FirstLogint": 1600962828,
+      "Logint": 1600962828,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "CDY-AN00",
+      "Total": 1
+    },
+    {
+      "Mac": "84:76:37:5C:62:A5",
+      "FirstLogint": 1600901563,
+      "Logint": 1600901563,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "ASK-AL00x",
+      "Total": 1
+    },
+    {
+      "Mac": "7C:94:2A:F4:B4:D0",
+      "FirstLogint": 1600932574,
+      "Logint": 1600932574,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "STK-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "04:8C:9A:50:FE:BB",
+      "FirstLogint": 1600904871,
+      "Logint": 1600904871,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "HLK-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "88:40:3B:3A:43:5F",
+      "FirstLogint": 1600933931,
+      "Logint": 1600954014,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "POT-AL00a",
+      "Total": 15
+    },
+    {
+      "Mac": "54:BA:D6:71:79:53",
+      "FirstLogint": 1600905301,
+      "Logint": 1600905301,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "SEA-AL10",
+      "Total": 1
+    },
+    {
+      "Mac": "04:4A:6C:D7:5A:71",
+      "FirstLogint": 1600822939,
+      "Logint": 1600908270,
+      "From": "xiaomi",
+      "Pac": "360sem_9",
+      "Brand": "HUAWEI",
+      "PhoneType": "MRD-AL00",
+      "Total": 4
+    },
+    {
+      "Mac": "F4:63:1F:DF:A2:9E",
+      "FirstLogint": 1600934063,
+      "Logint": 1600934063,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "DUB-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "88:10:8F:C8:7C:1A",
+      "FirstLogint": 1600694863,
+      "Logint": 1600961548,
+      "From": "xiaomi",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "EML-AL00",
+      "Total": 2
+    },
+    {
+      "Mac": "14:16:9E:11:98:EB",
+      "FirstLogint": 1600934083,
+      "Logint": 1600934083,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "Meizu",
+      "PhoneType": "MEIZU M6",
+      "Total": 1
+    },
+    {
+      "Mac": "2A:89:D5:5E:94:D8",
+      "FirstLogint": 1600907158,
+      "Logint": 1600907158,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "JER-AN20",
+      "Total": 1
+    },
+    {
+      "Mac": "4A:1A:D0:99:D2:75",
+      "FirstLogint": 1600934562,
+      "Logint": 1600934562,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "WLZ-AN00",
+      "Total": 1
+    },
+    {
+      "Mac": "84:76:37:73:E1:0D",
+      "FirstLogint": 1600907492,
+      "Logint": 1600907492,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "ASK-AL00x",
+      "Total": 1
+    },
+    {
+      "Mac": "A0:57:E3:9B:B7:88",
+      "FirstLogint": 1600934710,
+      "Logint": 1600934710,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "DRA-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "E4:19:C1:20:EC:8E",
+      "FirstLogint": 1600934800,
+      "Logint": 1600934800,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "HLK-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "60:21:01:17:0A:1D",
+      "FirstLogint": 1596978462,
+      "Logint": 1600963097,
+      "From": "xiaomi",
+      "Pac": "360sem_2",
+      "Brand": "OPPO",
+      "PhoneType": "OPPO R11t",
+      "Total": 37
+    },
+    {
+      "Mac": "1E:07:4D:6C:AC:14",
+      "FirstLogint": 1600907678,
+      "Logint": 1600913418,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "WLZ-AN00",
+      "Total": 3
+    },
+    {
+      "Mac": "04:F1:69:20:9C:28",
+      "FirstLogint": 1600935956,
+      "Logint": 1600935956,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "FRL-AN00a",
+      "Total": 1
+    },
+    {
+      "Mac": "FC:94:35:FF:9B:56",
+      "FirstLogint": 1600936494,
+      "Logint": 1600936494,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "SEA-AL10",
+      "Total": 1
+    },
+    {
+      "Mac": "B2:C9:7F:22:BA:86",
+      "FirstLogint": 1600937284,
+      "Logint": 1600937284,
+      "From": "promotion_channel",
+      "Pac": "360sem_8",
+      "Brand": "HUAWEI",
+      "PhoneType": "JEF-AN00",
+      "Total": 1
+    },
+    {
+      "Mac": "F6:61:71:49:E4:11",
+      "FirstLogint": 1600936272,
+      "Logint": 1600939644,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "WLZ-AN00",
+      "Total": 3
+    },
+    {
+      "Mac": "AC:E3:42:03:DD:2D",
+      "FirstLogint": 1600935771,
+      "Logint": 1600943553,
+      "From": "promotion_channel",
+      "Pac": "360sem_1",
+      "Brand": "HUAWEI",
+      "PhoneType": "LRA-AL00",
+      "Total": 3
+    },
+    {
+      "Mac": "2A:08:99:39:A5:6E",
+      "FirstLogint": 1597016286,
+      "Logint": 1600946479,
+      "From": "xiaomi",
+      "Pac": "360sem_1",
+      "Brand": "HUAWEI",
+      "PhoneType": "WLZ-AN00",
+      "Total": 10
+    },
+    {
+      "Mac": "54:92:09:3D:0C:3E",
+      "FirstLogint": 1600909625,
+      "Logint": 1600909625,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "SEA-AL10",
+      "Total": 1
+    },
+    {
+      "Mac": "44:59:E3:6D:FD:46",
+      "FirstLogint": 1600909813,
+      "Logint": 1600909813,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "HLK-AL10",
+      "Total": 1
+    },
+    {
+      "Mac": "78:36:CC:61:95:C5",
+      "FirstLogint": 1600936055,
+      "Logint": 1600936113,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "OPPO",
+      "PhoneType": "PACT00",
+      "Total": 2
+    },
+    {
+      "Mac": "56:57:CA:02:3D:21",
+      "FirstLogint": 1600936386,
+      "Logint": 1600936386,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "KKG-AN00",
+      "Total": 1
+    },
+    {
+      "Mac": "24:31:54:06:AA:9B",
+      "FirstLogint": 1597061218,
+      "Logint": 1600947312,
+      "From": "xiaomi",
+      "Pac": "360sem_3",
+      "Brand": "HUAWEI",
+      "PhoneType": "JKM-AL00",
+      "Total": 20
+    },
+    {
+      "Mac": "50:04:B8:12:CF:5C",
+      "FirstLogint": 1600936081,
+      "Logint": 1600936081,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "BAH-W09",
+      "Total": 1
+    },
+    {
+      "Mac": "F8:9A:78:D9:71:3D",
+      "FirstLogint": 1600936083,
+      "Logint": 1600936083,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "HRY-AL00Ta",
+      "Total": 1
+    },
+    {
+      "Mac": "D8:9A:34:01:82:C6",
+      "FirstLogint": 1597605386,
+      "Logint": 1600943361,
+      "From": "xiaomi",
+      "Pac": "360sem_3",
+      "Brand": "ZUK",
+      "PhoneType": "ZUK Z2121",
+      "Total": 31
+    },
+    {
+      "Mac": "88:F8:72:5D:86:E4",
+      "FirstLogint": 1600910205,
+      "Logint": 1600949213,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "HLK-AL00",
+      "Total": 2
+    },
+    {
+      "Mac": "22:BF:C9:9D:39:7A",
+      "FirstLogint": 1600910821,
+      "Logint": 1600910821,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "JEF-AN00",
+      "Total": 1
+    },
+    {
+      "Mac": "96:55:E7:8B:BE:A1",
+      "FirstLogint": 1600911548,
+      "Logint": 1600911548,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "KRJ-W09",
+      "Total": 1
+    },
+    {
+      "Mac": "88:F8:72:89:C3:10",
+      "FirstLogint": 1600936139,
+      "Logint": 1600936139,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "SEA-AL10",
+      "Total": 1
+    },
+    {
+      "Mac": "9E:D5:9D:DF:4B:8D",
+      "FirstLogint": 1600936341,
+      "Logint": 1600936341,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "CDY-AN20",
+      "Total": 1
+    },
+    {
+      "Mac": "C0:9A:71:5D:6A:5D",
+      "FirstLogint": 1600910987,
+      "Logint": 1600910987,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "Meitu",
+      "PhoneType": "MP1602",
+      "Total": 1
+    },
+    {
+      "Mac": "E4:FD:A1:11:DE:3B",
+      "FirstLogint": 1597582444,
+      "Logint": 1600911103,
+      "From": "xiaomi",
+      "Pac": "360sem_3",
+      "Brand": "HUAWEI",
+      "PhoneType": "DUB-AL00",
+      "Total": 3
+    },
+    {
+      "Mac": "26:B7:28:17:A9:7D",
+      "FirstLogint": 1600936993,
+      "Logint": 1600936993,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "CDY-AN00",
+      "Total": 1
+    },
+    {
+      "Mac": "FC:AB:90:F3:6D:22",
+      "FirstLogint": 1600911460,
+      "Logint": 1600911460,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "SEA-AL10",
+      "Total": 1
+    },
+    {
+      "Mac": "DE:61:3E:CB:0E:6D",
+      "FirstLogint": 1600937062,
+      "Logint": 1600939248,
+      "From": "promotion_channel",
+      "Pac": "360sem_1",
+      "Brand": "HUAWEI",
+      "PhoneType": "WLZ-AL10",
+      "Total": 2
+    },
+    {
+      "Mac": "34:7E:00:0E:62:E7",
+      "FirstLogint": 1600912345,
+      "Logint": 1600913068,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "SEA-AL10",
+      "Total": 3
+    },
+    {
+      "Mac": "D4:1A:3F:57:68:B3",
+      "FirstLogint": 1600937297,
+      "Logint": 1600941904,
+      "From": "promotion_channel",
+      "Pac": "",
+      "Brand": "OPPO",
+      "PhoneType": "OPPO R11s",
+      "Total": 2
+    },
+    {
+      "Mac": "24:6F:8C:03:35:DB",
+      "FirstLogint": 1600912450,
+      "Logint": 1600912521,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "HLK-AL00",
+      "Total": 2
+    },
+    {
+      "Mac": "3C:F5:91:34:09:B5",
+      "FirstLogint": 1600912740,
+      "Logint": 1600936798,
+      "From": "promotion_channel",
+      "Pac": "360sem_1",
+      "Brand": "OPPO",
+      "PhoneType": "OPPO R11t",
+      "Total": 7
+    },
+    {
+      "Mac": "44:D7:91:35:30:8A",
+      "FirstLogint": 1600939103,
+      "Logint": 1600939103,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "SEA-AL10",
+      "Total": 1
+    },
+    {
+      "Mac": "AA:D2:F0:A9:3C:EB",
+      "FirstLogint": 1600913061,
+      "Logint": 1600913087,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "JEF-AN00",
+      "Total": 2
+    },
+    {
+      "Mac": "88:F8:72:0B:A9:8C",
+      "FirstLogint": 1597455278,
+      "Logint": 1600925710,
+      "From": "promotion_channel",
+      "Pac": "360sem_3",
+      "Brand": "HUAWEI",
+      "PhoneType": "HLK-AL00",
+      "Total": 4
+    },
+    {
+      "Mac": "2C:57:31:BD:01:D4",
+      "FirstLogint": 1600939687,
+      "Logint": 1600939687,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "Meizu",
+      "PhoneType": "M6 Note",
+      "Total": 1
+    },
+    {
+      "Mac": "FC:AB:90:D0:FB:51",
+      "FirstLogint": 1600939600,
+      "Logint": 1600945210,
+      "From": "promotion_channel",
+      "Pac": "360sem_1",
+      "Brand": "HUAWEI",
+      "PhoneType": "HRY-AL00Ta",
+      "Total": 2
+    },
+    {
+      "Mac": "24:6F:8C:FB:A2:F9",
+      "FirstLogint": 1600913798,
+      "Logint": 1600913954,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "STK-AL00",
+      "Total": 3
+    },
+    {
+      "Mac": "1C:42:7D:AB:57:81",
+      "FirstLogint": 1600939816,
+      "Logint": 1600939816,
+      "From": "promotion_channel",
+      "Pac": "360sem_3",
+      "Brand": "OPPO",
+      "PhoneType": "OPPO A83t",
+      "Total": 1
+    },
+    {
+      "Mac": "90:17:C8:4A:03:74",
+      "FirstLogint": 1600914364,
+      "Logint": 1600914364,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "STK-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "2C:78:0E:7E:13:D6",
+      "FirstLogint": 1600940182,
+      "Logint": 1600940182,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "YAL-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "10:32:7E:D3:3E:F8",
+      "FirstLogint": 1600915051,
+      "Logint": 1600915051,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "LRA-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "E4:0E:EE:DF:A4:AF",
+      "FirstLogint": 1600941818,
+      "Logint": 1600941818,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "EML-TL00",
+      "Total": 1
+    },
+    {
+      "Mac": "2C:57:31:94:9D:B2",
+      "FirstLogint": 1597198618,
+      "Logint": 1600942647,
+      "From": "xiaomi",
+      "Pac": "360sem_5",
+      "Brand": "Meizu",
+      "PhoneType": "M6 Note",
+      "Total": 3
+    },
+    {
+      "Mac": "12:1C:8D:5D:47:18",
+      "FirstLogint": 1600941920,
+      "Logint": 1600948562,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "WLZ-AN00",
+      "Total": 3
+    },
+    {
+      "Mac": "D4:62:EA:33:9B:B5",
+      "FirstLogint": 1600915424,
+      "Logint": 1600915424,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "HLK-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "DA:10:54:ED:1A:1C",
+      "FirstLogint": 1600942892,
+      "Logint": 1600942892,
+      "From": "promotion_channel",
+      "Pac": "360sem_8",
+      "Brand": "HUAWEI",
+      "PhoneType": "JEF-AN00",
+      "Total": 1
+    },
+    {
+      "Mac": "B2:68:45:E9:3F:8D",
+      "FirstLogint": 1600942923,
+      "Logint": 1600961129,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "WLZ-AL10",
+      "Total": 2
+    },
+    {
+      "Mac": "E0:F4:42:10:97:4F",
+      "FirstLogint": 1600915588,
+      "Logint": 1600915588,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "STK-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "E4:34:93:9C:84:21",
+      "FirstLogint": 1600915948,
+      "Logint": 1600915948,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "EML-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "3E:E2:27:DE:EF:F5",
+      "FirstLogint": 1600915655,
+      "Logint": 1600935750,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "JER-AN20",
+      "Total": 2
+    },
+    {
+      "Mac": "88:40:3B:DE:60:7C",
+      "FirstLogint": 1597457506,
+      "Logint": 1600943636,
+      "From": "promotion_channel",
+      "Pac": "360sem_3",
+      "Brand": "HUAWEI",
+      "PhoneType": "MAR-AL00",
+      "Total": 2
+    },
+    {
+      "Mac": "90:F0:52:92:DC:53",
+      "FirstLogint": 1600915915,
+      "Logint": 1600915915,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "meizu",
+      "PhoneType": "16s Pro",
+      "Total": 1
+    },
+    {
+      "Mac": "54:F2:94:26:DE:27",
+      "FirstLogint": 1600916685,
+      "Logint": 1600916685,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "STK-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "DE:AB:29:B1:5A:F8",
+      "FirstLogint": 1600944474,
+      "Logint": 1600944474,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "CDY-AN20",
+      "Total": 1
+    },
+    {
+      "Mac": "8A:C2:7D:E0:F6:0D",
+      "FirstLogint": 1600570329,
+      "Logint": 1600958627,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "JEF-AN20",
+      "Total": 2
+    },
+    {
+      "Mac": "EC:01:EE:C1:7D:42",
+      "FirstLogint": 1600917808,
+      "Logint": 1600917808,
+      "From": "xiaomi",
+      "Pac": "",
+      "Brand": "OPPO",
+      "PhoneType": "A1601",
+      "Total": 1
+    },
+    {
+      "Mac": "44:59:E3:8B:3C:3E",
+      "FirstLogint": 1597622771,
+      "Logint": 1600919554,
+      "From": "xiaomi",
+      "Pac": "360sem_3",
+      "Brand": "HUAWEI",
+      "PhoneType": "YAL-AL00",
+      "Total": 21
+    },
+    {
+      "Mac": "EE:17:11:04:0D:96",
+      "FirstLogint": 1600945286,
+      "Logint": 1600945286,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "JNY-AL10",
+      "Total": 1
+    },
+    {
+      "Mac": "D8:9B:3B:06:8D:E6",
+      "FirstLogint": 1600917879,
+      "Logint": 1600917879,
+      "From": "promotion_channel",
+      "Pac": "360sem_1",
+      "Brand": "HUAWEI",
+      "PhoneType": "MRD-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "10:B1:F8:DD:97:0D",
+      "FirstLogint": 1600945300,
+      "Logint": 1600945300,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "EDI-AL10",
+      "Total": 1
+    },
+    {
+      "Mac": "22:27:D7:E7:AD:76",
+      "FirstLogint": 1600918032,
+      "Logint": 1600918032,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "JEF-TN00",
+      "Total": 1
+    },
+    {
+      "Mac": "92:0C:C8:AC:66:FC",
+      "FirstLogint": 1600946837,
+      "Logint": 1600946837,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "JEF-AN00",
+      "Total": 1
+    },
+    {
+      "Mac": "5A:97:67:78:06:4F",
+      "FirstLogint": 1600946726,
+      "Logint": 1600949000,
+      "From": "promotion_channel",
+      "Pac": "360sem_1",
+      "Brand": "HUAWEI",
+      "PhoneType": "TEL-AN00a",
+      "Total": 2
+    },
+    {
+      "Mac": "56:34:E1:F1:D1:91",
+      "FirstLogint": 1600946397,
+      "Logint": 1600953293,
+      "From": "promotion_channel",
+      "Pac": "360sem_1",
+      "Brand": "HUAWEI",
+      "PhoneType": "CDY-AN00",
+      "Total": 3
+    },
+    {
+      "Mac": "3C:F5:91:5D:39:41",
+      "FirstLogint": 1600918586,
+      "Logint": 1600918586,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "OPPO",
+      "PhoneType": "OPPO R11t",
+      "Total": 1
+    },
+    {
+      "Mac": "94:D0:0D:0A:DC:70",
+      "FirstLogint": 1600873030,
+      "Logint": 1600940010,
+      "From": "xiaomi",
+      "Pac": "",
+      "Brand": "HUAWEI",
+      "PhoneType": "ELE-AL00",
+      "Total": 2
+    },
+    {
+      "Mac": "24:DA:33:B2:8B:0B",
+      "FirstLogint": 1600947086,
+      "Logint": 1600952594,
+      "From": "promotion_channel",
+      "Pac": "360sem_1",
+      "Brand": "HUAWEI",
+      "PhoneType": "YAL-AL00",
+      "Total": 2
+    },
+    {
+      "Mac": "E4:19:C1:87:68:20",
+      "FirstLogint": 1600873212,
+      "Logint": 1600884707,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "HLK-AL00",
+      "Total": 4
+    },
+    {
+      "Mac": "7C:94:2A:AA:76:BB",
+      "FirstLogint": 1600918610,
+      "Logint": 1600929948,
+      "From": "promotion_channel",
+      "Pac": "360sem_1",
+      "Brand": "HUAWEI",
+      "PhoneType": "HLK-AL00",
+      "Total": 2
+    },
+    {
+      "Mac": "E0:F4:42:4D:41:22",
+      "FirstLogint": 1600947171,
+      "Logint": 1600947171,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "HLK-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "00:66:19:DB:F2:F5",
+      "FirstLogint": 1600648062,
+      "Logint": 1600960622,
+      "From": "xiaomi",
+      "Pac": "",
+      "Brand": "HUAWEI",
+      "PhoneType": "STK-AL00",
+      "Total": 2
+    },
+    {
+      "Mac": "C6:87:C4:8C:F5:AF",
+      "FirstLogint": 1600918813,
+      "Logint": 1600921376,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "CDY-TN00",
+      "Total": 2
+    },
+    {
+      "Mac": "4E:82:2B:EB:BE:79",
+      "FirstLogint": 1600948081,
+      "Logint": 1600948081,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "JNY-AL10",
+      "Total": 1
+    },
+    {
+      "Mac": "02:AD:A1:DC:A7:97",
+      "FirstLogint": 1600948590,
+      "Logint": 1600948590,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "CDY-AN00",
+      "Total": 1
+    },
+    {
+      "Mac": "04:4A:6C:DA:8A:F8",
+      "FirstLogint": 1600833042,
+      "Logint": 1600914119,
+      "From": "xiaomi",
+      "Pac": "360sem_1",
+      "Brand": "HUAWEI",
+      "PhoneType": "ASK-AL00x",
+      "Total": 3
+    },
+    {
+      "Mac": "8E:94:7E:86:84:E5",
+      "FirstLogint": 1600919363,
+      "Logint": 1600919363,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "JER-AN10",
+      "Total": 1
+    },
+    {
+      "Mac": "24:DA:33:78:96:B0",
+      "FirstLogint": 1600948849,
+      "Logint": 1600948849,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "POT-AL00a",
+      "Total": 1
+    },
+    {
+      "Mac": "04:50:DA:20:54:76",
+      "FirstLogint": 1600918927,
+      "Logint": 1600952754,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "360",
+      "PhoneType": "1809-A01",
+      "Total": 2
+    },
+    {
+      "Mac": "38:6E:A2:5B:A4:DA",
+      "FirstLogint": 1600919617,
+      "Logint": 1600919617,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "vivo",
+      "PhoneType": "vivo X20",
+      "Total": 1
+    },
+    {
+      "Mac": "FC:AB:90:9D:EE:55",
+      "FirstLogint": 1600949469,
+      "Logint": 1600949686,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "SEA-AL10",
+      "Total": 2
+    },
+    {
+      "Mac": "1C:B7:96:4C:BB:45",
+      "FirstLogint": 1600529597,
+      "Logint": 1600877077,
+      "From": "xiaomi",
+      "Pac": "360sem_8",
+      "Brand": "HUAWEI",
+      "PhoneType": "HLK-AL00",
+      "Total": 2
+    },
+    {
+      "Mac": "84:76:37:6B:FD:E0",
+      "FirstLogint": 1600951826,
+      "Logint": 1600951826,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "HLK-AL10",
+      "Total": 1
+    },
+    {
+      "Mac": "B4:86:55:89:59:33",
+      "FirstLogint": 1600952248,
+      "Logint": 1600952286,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "COL-AL10",
+      "Total": 2
+    },
+    {
+      "Mac": "14:A3:2F:C8:FD:4E",
+      "FirstLogint": 1600922603,
+      "Logint": 1600922654,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "SEA-AL10",
+      "Total": 3
+    },
+    {
+      "Mac": "2C:57:31:D6:6A:EE",
+      "FirstLogint": 1600923258,
+      "Logint": 1600937141,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "Meizu",
+      "PhoneType": "M6 Note",
+      "Total": 4
+    },
+    {
+      "Mac": "38:29:5A:F1:85:93",
+      "FirstLogint": 1600952671,
+      "Logint": 1600952671,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "OPPO",
+      "PhoneType": "OPPO R9s",
+      "Total": 1
+    },
+    {
+      "Mac": "FC:AB:90:F0:DC:31",
+      "FirstLogint": 1600952982,
+      "Logint": 1600952982,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "POT-AL00a",
+      "Total": 1
+    },
+    {
+      "Mac": "54:92:09:B9:57:F9",
+      "FirstLogint": 1600876997,
+      "Logint": 1600876997,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "KSA-AL10",
+      "Total": 1
+    },
+    {
+      "Mac": "7C:94:2A:F2:90:FB",
+      "FirstLogint": 1596892791,
+      "Logint": 1600920754,
+      "From": "xiaomi",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "DUB-AL20",
+      "Total": 40
+    },
+    {
+      "Mac": "84:76:37:73:1E:E6",
+      "FirstLogint": 1600922735,
+      "Logint": 1600922735,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "ASK-AL00x",
+      "Total": 1
+    },
+    {
+      "Mac": "24:31:54:5A:56:A6",
+      "FirstLogint": 1597153893,
+      "Logint": 1600946573,
+      "From": "xiaomi",
+      "Pac": "360sem_3",
+      "Brand": "HUAWEI",
+      "PhoneType": "MAR-AL00",
+      "Total": 49
+    },
+    {
+      "Mac": "14:C6:97:7C:C2:1F",
+      "FirstLogint": 1600953576,
+      "Logint": 1600953576,
+      "From": "promotion_channel",
+      "Pac": "360sem_3",
+      "Brand": "OPPO",
+      "PhoneType": "OPPO A83t",
+      "Total": 1
+    },
+    {
+      "Mac": "AE:C1:0E:D3:4F:3C",
+      "FirstLogint": 1600953939,
+      "Logint": 1600954083,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "JER-AN10",
+      "Total": 3
+    },
+    {
+      "Mac": "C4:06:83:F0:FA:5C",
+      "FirstLogint": 1600878786,
+      "Logint": 1600878786,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "VCE-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "54:14:73:88:AE:92",
+      "FirstLogint": 1600923921,
+      "Logint": 1600923921,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "Meizu",
+      "PhoneType": "M571C",
+      "Total": 1
+    },
+    {
+      "Mac": "E4:19:C1:46:CB:26",
+      "FirstLogint": 1600925229,
+      "Logint": 1600925293,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "SEA-AL10",
+      "Total": 2
+    },
+    {
+      "Mac": "FC:94:35:AD:24:88",
+      "FirstLogint": 1600954699,
+      "Logint": 1600954699,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "HLK-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "00:EC:0A:18:3F:21",
+      "FirstLogint": 1600880572,
+      "Logint": 1600880572,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "Xiaomi",
+      "PhoneType": "Redmi Note 4X",
+      "Total": 1
+    },
+    {
+      "Mac": "52:95:68:4A:44:71",
+      "FirstLogint": 1600609063,
+      "Logint": 1600895296,
+      "From": "xiaomi",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "CDY-AN00",
+      "Total": 6
+    },
+    {
+      "Mac": "2C:FD:AB:EC:66:CB",
+      "FirstLogint": 1600925856,
+      "Logint": 1600925856,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "Lenovo",
+      "PhoneType": "Lenovo L78011",
+      "Total": 1
+    },
+    {
+      "Mac": "A6:C0:55:6A:96:F4",
+      "FirstLogint": 1600955045,
+      "Logint": 1600955045,
+      "From": "promotion_channel",
+      "Pac": "360sem_3",
+      "Brand": "HUAWEI",
+      "PhoneType": "JEF-AN00",
+      "Total": 1
+    },
+    {
+      "Mac": "6C:06:D6:EF:AB:89",
+      "FirstLogint": 1600955195,
+      "Logint": 1600955195,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "SEA-AL10",
+      "Total": 1
+    },
+    {
+      "Mac": "4C:D1:A1:8E:BD:C2",
+      "FirstLogint": 1600880598,
+      "Logint": 1600880598,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "DUB-TL00",
+      "Total": 1
+    },
+    {
+      "Mac": "A8:E5:44:51:82:73",
+      "FirstLogint": 1600880936,
+      "Logint": 1600881146,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "DUB-AL00",
+      "Total": 2
+    },
+    {
+      "Mac": "A4:4B:D5:E5:0A:9C",
+      "FirstLogint": 1600881350,
+      "Logint": 1600881350,
+      "From": "promotion_channel",
+      "Pac": "360sem_1",
+      "Brand": "Xiaomi",
+      "PhoneType": "Redmi Note 8",
+      "Total": 1
+    },
+    {
+      "Mac": "84:76:37:77:D5:F3",
+      "FirstLogint": 1600881414,
+      "Logint": 1600881468,
+      "From": "promotion_channel",
+      "Pac": "360sem_1",
+      "Brand": "HUAWEI",
+      "PhoneType": "SEA-AL00",
+      "Total": 3
+    },
+    {
+      "Mac": "74:59:09:81:FA:CB",
+      "FirstLogint": 1600926241,
+      "Logint": 1600926269,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "SEA-AL10",
+      "Total": 2
+    },
+    {
+      "Mac": "68:A0:3E:13:7F:03",
+      "FirstLogint": 1600955783,
+      "Logint": 1600956107,
+      "From": "promotion_channel",
+      "Pac": "360sem_3",
+      "Brand": "HUAWEI",
+      "PhoneType": "POT-AL00a",
+      "Total": 4
+    },
+    {
+      "Mac": "AC:E3:42:94:D2:39",
+      "FirstLogint": 1600881773,
+      "Logint": 1600881773,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "HLK-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "38:6E:A2:AF:27:31",
+      "FirstLogint": 1600926506,
+      "Logint": 1600926506,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "vivo",
+      "PhoneType": "vivo X20A",
+      "Total": 1
+    },
+    {
+      "Mac": "D8:9B:3B:1A:30:DF",
+      "FirstLogint": 1596719832,
+      "Logint": 1600955909,
+      "From": "xiaomi",
+      "Pac": "",
+      "Brand": "HUAWEI",
+      "PhoneType": "VOG-AL10",
+      "Total": 4
+    },
+    {
+      "Mac": "C4:06:83:70:EC:31",
+      "FirstLogint": 1600881803,
+      "Logint": 1600881803,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "EML-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "14:16:9E:5F:08:7C",
+      "FirstLogint": 1600882297,
+      "Logint": 1600882297,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "meizu",
+      "PhoneType": "16T",
+      "Total": 1
+    },
+    {
+      "Mac": "EC:56:23:7E:01:65",
+      "FirstLogint": 1600926532,
+      "Logint": 1600926532,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "POT-AL00a",
+      "Total": 1
+    },
+    {
+      "Mac": "D0:16:B4:50:DA:73",
+      "FirstLogint": 1600580703,
+      "Logint": 1600946342,
+      "From": "xiaomi",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "JSN-AL00",
+      "Total": 26
+    },
+    {
+      "Mac": "AA:5A:65:6D:0E:B0",
+      "FirstLogint": 1600957410,
+      "Logint": 1600957410,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "CDY-AN00",
+      "Total": 1
+    },
+    {
+      "Mac": "22:1E:9E:AF:F7:E7",
+      "FirstLogint": 1600957666,
+      "Logint": 1600957852,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "JEF-AN20",
+      "Total": 2
+    },
+    {
+      "Mac": "30:84:54:53:A9:91",
+      "FirstLogint": 1597592562,
+      "Logint": 1600963167,
+      "From": "xiaomi",
+      "Pac": "360sem_3",
+      "Brand": "OPPO",
+      "PhoneType": "OPPO R11t",
+      "Total": 68
+    },
+    {
+      "Mac": "E4:19:C1:64:AB:0A",
+      "FirstLogint": 1600882309,
+      "Logint": 1600882309,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "KSA-AL10",
+      "Total": 1
+    },
+    {
+      "Mac": "90:17:C8:39:39:1F",
+      "FirstLogint": 1600926977,
+      "Logint": 1600926977,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "STK-AL00",
+      "Total": 1
+    },
+    {
+      "Mac": "D8:9B:3B:AD:C5:0D",
+      "FirstLogint": 1600957437,
+      "Logint": 1600957437,
+      "From": "promotion_channel",
+      "Pac": "360sem_2",
+      "Brand": "HUAWEI",
+      "PhoneType": "MRD-AL00",
+      "Total": 1
+    }
+  ]
+}

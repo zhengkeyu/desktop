@@ -2,10 +2,12 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"github.com/go-pg/pg/v9"
-	"github.com/go-redis/redis/v7"
 	"io/ioutil"
+	"net/http"
 	"os"
+	"os/signal"
 	"time"
 )
 
@@ -17,10 +19,10 @@ import (
 //}
 
 var Pg = &pg.Options{
-	Addr:     "127.0.0.1:5432",
+	Addr:     "123.207.85.242:5433",
 	User:     "postgres",
-	Password: "abc123",
-	Database: "mydb",
+	Password: "2932615qian",
+	Database: "postgres",
 }
 
 func main() {
@@ -29,9 +31,87 @@ func main() {
 
 	//Compensation()
 
-	//fmt.Println(time.Unix(1599127144, 0).Format("2006-01-02 15:04:05"))
+	//fmt.Println(time.Now().Unix())
 
-	SendMsg()
+	//printVip()
+
+	//db := pg.Connect(Pg)
+	//defer db.Close()
+	//
+	//huatis := make([]HuaTi, 0)
+	//err := db.Model(&huatis).Limit(50).Select()
+	//if err != nil {
+	//	panic(err)
+	//}
+	//
+	//b,err := json.Marshal(huatis)
+	//if err != nil {
+	//	panic(err)
+	//}
+	//fmt.Println(len(b))
+
+
+}
+
+func testNami(){
+	callurl := fmt.Sprintf("%v/%v?user=%v&secret=%v", `http://open.sportnanoapi.com`,
+		"api/sports/football/match/live",
+		"test1218",
+		"86c15012a5a70f8907d")
+
+	resp, err := http.Get(callurl)
+
+	if err != nil { //请求失败
+		panic(err)
+	}
+
+	if resp != nil && resp.StatusCode != 200 {
+		fmt.Println("调用第三方错误1", resp)
+		return
+	}
+
+	body, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		panic(err)
+	}
+
+	live := NMLive{}
+	err = json.Unmarshal(body, &live)
+	if err != nil {
+		fmt.Println("json解析错误", err)
+		return
+	}
+
+	for _,v := range live{
+		fmt.Println(v)
+	}
+
+	s := make(chan os.Signal)
+	signal.Notify(s,os.Interrupt)
+	d := <- s
+	fmt.Println(d)
+}
+
+type NMLive [][]interface{}
+type HuaTi struct {
+	Id        int64
+	Uid       string
+	Username  string
+	Avatar    string
+	Lv        int
+	Title     string
+	Txt       string
+	Img       string
+	Comment   int
+	Jing      int
+	Createt   int64
+	Commentt  int64
+	Ding      int
+	Dingt     int64
+	Jingt     int64
+	Vip       int
+	Clock     int
+	tableName struct{} `pg:"k_huati"`
 }
 
 type User struct {
@@ -223,46 +303,20 @@ func AddProp(old [][]int, p [][]int) [][]int {
 //	}
 //}
 
-func SendMsg() {
-	client := redis.NewClient(&redis.Options{
-		Addr:     "localhost:6379",
-		Password: "", // no password set
-		DB:       0,  // use default DB
-	})
+func printVip() {
+	db := pg.Connect(Pg) //连接数据库
+	defer db.Close()
 
-	_, err := client.Ping().Result()
+	users := make([]User, 0)
+	err := db.Model(&users).Where("vip > 0").Order("vip desc").Select()
 	if err != nil {
 		panic(err)
 	}
 
-	dstr1, err := json.Marshal(UserMsg{
-		Title: "标题2",
-		Txt:   "txt2",
-		T:time.Now().Unix(),
-	})
-
-	if err != nil {
-		panic(err)
-	}
-
-	err = client.RPush("msg.user."+"bbfc6af2-8d0a-4394-b068-8cc3377d0b86", dstr1).Err()
-	if err != nil {
-		panic(err)
-	}
-
-	dstr2, err := json.Marshal(UserMsg{
-		Title: "标题2",
-		Txt:   "txt2",
-		T:time.Now().Unix(),
-	})
-
-	if err != nil {
-		panic(err)
-	}
-
-	err = client.RPush("msg.user."+"bbfc6af2-8d0a-4394-b068-8cc3377d0b86", dstr2).Err()
-	if err != nil {
-		panic(err)
+	fmt.Println(len(users))
+	for _, v := range users {
+		date := time.Unix(v.Vipst, 0).Format("2006-01-02 15:04:05")
+		fmt.Printf("days:%v,time:%v,code:%v\n", v.Vip, date, v.Yqcode)
 	}
 }
 

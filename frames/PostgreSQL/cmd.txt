@@ -63,3 +63,12 @@ where id = ? and name = ?
 where id = ?
 不能优化到的查询,因为建一个联合索引(col1,col2,col3)，实际相当于建了(col1),(col1,col2),(col1,col2,col3)三个索引
 where name = ?
+
+//查看sql执行的过程和时间
+explain 查询语句等...
+
+//设置时区
+set time zone 'Asia/Shanghai';
+
+//查看时区
+show timezone;
