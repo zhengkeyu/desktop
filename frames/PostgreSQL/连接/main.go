@@ -2,7 +2,6 @@ package main
 
 import (
 	"github.com/go-pg/pg/v9"
-	"time"
 )
 
 type mytable struct {
@@ -28,14 +27,23 @@ type project struct {
 //}
 
 func main() {
+	//正式网
+	db2 := pg.Connect(&pg.Options{
+		Addr:     "47.100.96.130:5432",
+		User:     "postgres",
+		Password: "#34JKki2",
+		Database: "postgres",
+	})
+	defer db2.Close()
 
-	//db := pg.Connect(&pg.Options{
-	//	Addr:     "123.207.85.242:5433",
+	////测试网
+	//db2 := pg.Connect(&pg.Options{
+	//	Addr:     "116.62.153.96:5432",
 	//	User:     "postgres",
-	//	Password: "2932615qian",
+	//	Password: "rtmh2021.",
 	//	Database: "postgres",
 	//})
-	//defer db.Close()
+	//defer db2.Close()
 
 	////建表
 	//err := db.CreateTable(&mytable{}, &orm.CreateTableOptions{
@@ -199,157 +207,4 @@ func main() {
 	//	panic(err)
 	//}
 
-	TestSql()
-}
-
-
-
-type GameScheme struct {
-	Id          int
-	Namiid      int           //比赛的纳米id
-	Tuid        int           //专家表的专家id
-	Uid         int           //区分系统和真实用户，负数的是系统，其他的是真实用户
-	Schemetype  string        //方案针对(让球=asia，大小球=bs，胜平负=eu)
-	Schemevalue []interface{} `pg:"type:varchar(100)"` //方案数据
-	Reason      string        //分析理由
-	Price       int           //方案价格(爱心),0为免费
-	Result      int           //结果,1=错，2=中
-	tableName   struct{}      `pg:"gamescheme"`
-}
-
-func TestSql() {
-	db := pg.Connect(&pg.Options{
-		Addr:     ":5432",
-		User:     "postgres",
-		Password: "abc123",
-		Database: "mydb",
-	})
-	defer db.Close()
-
-	t := T1{
-		Id: 0,
-		Name: "b2",
-	}
-
-	err := db.Insert(&t)
-	if err != nil{
-		panic(err)
-	}
-
-}
-
-type T1 struct {
-	Id   int
-	Name string
-	tableName struct{} `pg:"t1"`
-}
-
-type T2 struct {
-	Id        int
-	Name      string
-	Age       int
-	tableName struct{} `pg:"t2"`
-}
-
-type YouKe struct {
-	Mac         string
-	Logint      int64
-	FirstLogint int64 `pg:"firstlogint"`
-	From        string
-	Pac         string   //渠道包
-	Brand       string   //手机品牌
-	PhoneType   string   `pg:"phonetype"` //手机型号
-	Total       int64    //总登录次数
-	tableName   struct{} `pg:"k_youke"`
-}
-
-type User struct {
-	Id         string
-	Username   string
-	Pwd        string
-	Viplevel   int
-	Gold       int64
-	Gender     int16
-	Iconurl    string
-	Nickname   string
-	Mobile     string
-	Wxid       string
-	Tokenuuid  string
-	Realname   string
-	Idnumber   string
-	Email      string
-	Exp        int
-	Packet     string
-	Vip        int
-	Vipst      int64
-	Yqcode     string
-	Usedyqcode string
-	Usource    int
-	Uchannel   int
-	Mark       int
-	Status     int
-	Lastlogin  time.Time
-	Createt    time.Time `pg:"create_at"`
-	IsStar     bool      `pg:"is_star"`
-	IsShowing  bool      `pg:"is_showing"`
-	tableName  struct{}  `pg:"k_usrs"`
-}
-
-type InviteTask struct {
-	Id        int
-	Name      string
-	Head      string
-	Gifts     []string
-	Uid       string
-	tableName struct{} `pg:"invitetask"`
-}
-
-type OnLineTime struct {
-	Id        int
-	UserId    string   `pg:"userid"`
-	TotalTime int      `pg:"totaltime"`
-	tableName struct{} `pg:"onlinetime"`
-}
-type Test struct {
-	Id        int
-	UserName  string `pg:"username"`
-	Bpwd      string
-	Pwd       string
-	tableName struct{} `pg:"test"`
-}
-type Prediction struct {
-	Id        int      `pg:"id"`
-	NaMiId    int      `pg:"namiid"`
-	Name      string   `pg:"name"`
-	Startt    int64    `pg:"startt"`
-	Companyid int      `pg:"companyid"`
-	RqResult  int      `pg:"rqresult"`
-	SfpResult int      `pg:"sfpresult"`
-	DxResult  int      `pg:"dxresult"`
-	tableName struct{} `pg:"prediction"`
-}
-
-type LiaoTianShiCount struct {
-	Id        int
-	NamiId    int64 `pg:"namiid"`
-	Startt    int64
-	Name      []string
-	UserId    string   `pg:"userid"`
-	tableName struct{} `pg:"liaotianshicount"`
-}
-
-func RunRemote() {
-	db := pg.Connect(&pg.Options{
-		Addr:     "123.207.85.242:5433",
-		User:     "postgres",
-		Password: "2932615qian",
-		Database: "postgres",
-	})
-	defer db.Close()
-}
-
-type NaMi struct {
-	Namiid     int   `pg:"namiid"`
-	Startt     int64 `pg:"startt"`
-	Startballt int64 `pg:"startballt"`
 }

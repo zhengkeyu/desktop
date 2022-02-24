@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
@@ -21,7 +22,10 @@ func main() {
 	//重定向
 	//重定向是通知浏览器再发生一次请求
 	r.GET("/redirect", func(c *gin.Context) {
-		c.Redirect(http.StatusMovedPermanently,"https://bilibili.com")
+		fmt.Println(c.Request.URL.Path)
+		c.Redirect(http.StatusMovedPermanently,"http://www.youtoball.com/app/try/go"+c.Request.URL.Path)
+
+		fmt.Println("next...")
 	})
 
 	r.Run(":8081")

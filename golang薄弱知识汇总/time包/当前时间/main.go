@@ -10,10 +10,11 @@ func main() {
 	fmt.Println(t)
 
 	//根据时间戳转化成时间字符串
-	time.Unix(1595814960,0).Format("2006-01-02 15:04:05")
+	time.Unix(1595814960, 0).Format("2006-01-02 15:04:05")
 
 	//时间字符串转成时间戳
-	loc,_ := time.LoadLocation("Asia/Shanghai")
-	t2,_ := time.ParseInLocation("2006-01-02 15:04:05","2020-07-20 13:35:00",loc)
-	fmt.Println(t,t2)
+	loc, _ := time.LoadLocation("Asia/Shanghai")
+	//time.Local  //本地时间
+	t2, _ := time.ParseInLocation("2006-01-02 15:04:05", "2020-07-20 13:35:00", loc)
+	fmt.Println(t, t2)
 }
