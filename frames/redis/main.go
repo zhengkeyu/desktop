@@ -64,37 +64,4 @@ func main() {
 	//
 	//fmt.Println(res)
 
-
-}
-
-func AddBlindBoxOpenHistory(boxtype, value string) error {
-	err := connect.Db.LPush("openhistory-"+boxtype, value).Err()
-	if err != nil {
-		return err
-	}
-
-	length, err := connect.Db.LLen("openhistory-" + boxtype).Result()
-	if err != nil {
-		return err
-	}
-
-	if length > 12 {
-		for i := 1; i <= int(length)-12; i++ {
-			err = connect.Db.RPop("openhistory-" + boxtype).Err()
-			if err != nil {
-				return err
-			}
-		}
-	}
-	return nil
-}
-
-func GetBlindBoxOpenHistory(boxtype string, p int64) ([]string, error) {
-	return connect.Db.LRange("openhistory-"+boxtype, p*10, p*10+9).Result()
-}
-
-type Info struct {
-	Id    int
-	Name  string
-	Count int
 }

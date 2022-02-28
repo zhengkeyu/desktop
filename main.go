@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 //正式
 //var Pg = &pg.Options{
 //	Addr:     "47.100.96.130:5432",
@@ -18,4 +20,5 @@ package main
 func main() {
 	//db := pg.Connect(Pg)
 	//defer db.Close()
+	fmt.Println("hello")
 }
